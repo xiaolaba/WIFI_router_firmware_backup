@@ -14,5 +14,6 @@ R6300v2-V1.0.4.42_10.0.93, ok
 R6300v2-V1.0.4.46_10.0.93, ok  
 
 these are paired devices,  
-RBR20 & RBS20, V2.5.1.16, no good  
+RBR20 & RBS20, V2.5.1.16, no good, connection drops occasionally, do not know why, they had not listen to customers yet,  
+https://community.netgear.com/t5/forums/searchpage/tab/message?filter=location&q=RBR20%20drop&noSynonym=false&location=community:ejquo23388&collapse_discussion=true
  
