@@ -1,11 +1,11 @@
 
 
-ASUS official firmware
-WL-330gE 韌體版本2.0.2.0（英語/繁體中文/簡體中文/德語/日語/土耳其語）
-Version 2.0.2.0 2.97 MB
-2011/04/21
-新增支援土耳其語
-[WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)
+ASUS official firmware  
+WL-330gE 韌體版本2.0.2.0（英語/繁體中文/簡體中文/德語/日語/土耳其語）  
+Version 2.0.2.0 2.97 MB  
+2011/04/21  
+新增支援土耳其語  
+[WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)  
 
 
 
