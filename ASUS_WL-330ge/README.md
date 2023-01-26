@@ -7,6 +7,43 @@ Version 2.0.2.0 2.97 MB
 新增支援土耳其語  
 [WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)  
 
+enter resecue mode
+1. hold the button
+2. power up
+3. power LED flash about 1sec interval
+
+if uses UART dump terminal, will see tftp
+```
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Fri Apr 11 15:23:32 CST 2008 (root@localhost.localdomain)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 131072(0x20000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.130.31.0
+CPU type 0x29029: 240MHz
+Total memory: 16384 KBytes
+
+Total memory used by CFE:  0x80400000 - 0x80497DD0 (622032)
+Initialized Data:          0x8042F150 - 0x80431610 (9408)
+BSS Area:                  0x80431610 - 0x80431DD0 (1984)
+Local Heap:                0x80431DD0 - 0x80495DD0 (409600)
+Stack Area:                0x80495DD0 - 0x80497DD0 (8192)
+Text (code) segment:       0x80400000 - 0x8042F150 (192848)
+Boot area (physical):      0x00498000 - 0x004D8000
+Relocation Factor:         I:00000000 - D:00000000
+
+Device eth0:  hwaddr xx-xx-xx-xx-xx-xx, ipaddr 192.168.1.220, mask 255.255.255.0
+        gateway not set, nameserver not set
+Null Rescue Flag.
+Hello!! Enter Rescue Mode: (by Force)
+
+Reading :: TFTP Server.
+Failed.: Timeout occured
+
+```
+
 
 
 
