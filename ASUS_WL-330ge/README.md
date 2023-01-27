@@ -22,6 +22,13 @@ Version 2.0.2.0 2.97 MB
 新增支援土耳其語  
 [WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)  
 
+### [user_manual](user_manual)
+[user_manual](user_manual)
+
+### [asus_source_code](asus_source_code)  
+files are over 25MB, could not be upload  
+
+
 following, burn firmware testing,  
 ![openwrt15_17_burn_ok.JPG](openwrt15_17_burn_ok.JPG)  
 ```
