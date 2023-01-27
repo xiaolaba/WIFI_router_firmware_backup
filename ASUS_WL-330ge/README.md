@@ -21,7 +21,12 @@ Version 2.0.2.0 2.97 MB
 2011/04/21  
 新增支援土耳其語  
 [WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)  
+login user name: admin  
+login password : admin  
 
+  
+  
+  
 ### [user_manual](user_manual)
 [user_manual](user_manual)
 
