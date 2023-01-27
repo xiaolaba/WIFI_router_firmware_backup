@@ -1,7 +1,7 @@
 # ASUS_WL-330ge burn firmware
 
 ### hardware setup
-1. LAN cable connect wl-330ge to PC, PC lan address set to 192.168.1.188  
+1. LAN cable connect wl-330ge to PC, PC lan address set to 192.168.1.188, mask 255.255.255.0, dns 192.168.1.220 or blank    
 2. serial-usb connect to wl-330ge UART, pin from left to right, +3.3V (not used), Tx, Rx, GND, try to swarp tx/rx, serial port setting 115200 baud, N81  
 ![wl-330ge_serial_port.JPG](wl-330ge_serial_port.JPG)  
 
