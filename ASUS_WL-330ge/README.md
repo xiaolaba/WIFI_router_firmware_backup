@@ -17,17 +17,23 @@ or uses ASUS tool, UT_WL330GE_1421. go to ASUS webpage downlod, or here local [U
 
 
 following burn firmware,  
+![openwrt15_17_burn_ok.JPG](openwrt15_17_burn_ok.JPG)  
+```
 openwrt-15.05.1-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
 lede-17.01.7-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
+```
+
+![openwrt_18_burn_fail.JPG](openwrt_18_burn_fail.JPG)  
+```
 openwrt-18.06.4-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, NG  
 openwrt-22.03.2-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
 openwrt-22.03.3-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
 openwrt-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
+```
 
 
 
-
-if uses UART dump terminal, will see tftp
+if uses UART dump terminal, will see tftp prompt,
 ```
 CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
 Build Date: Fri Apr 11 15:23:32 CST 2008 (root@localhost.localdomain)
