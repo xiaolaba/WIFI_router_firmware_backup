@@ -7,6 +7,13 @@ Version 2.0.2.0 2.97 MB
 新增支援土耳其語  
 [WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)  
 
+
+Lan cable connectwl-330ge to PC, PC lan address set to 192.168.1.188  
+serial-usb connect to wl-330ge, pin from left to right, +3.3V (not used), Tx, Rx, GND, no need
+![wl-330ge_serial_port.JPG](wl-330ge_serial_port.JPG)  
+
+
+
 enter resecue mode
 1. hold the button
 2. power up
