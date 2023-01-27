@@ -1,6 +1,6 @@
 # ASUS_WL-330ge burn firmware
 
-### hardware setup
+### hardware setup this is 4MB flash / 16MB RAM device, no enough memory  
 1. LAN cable connect wl-330ge to PC, PC lan address set to 192.168.1.188, mask 255.255.255.0, dns 192.168.1.220 or blank    
 2. serial-usb connect to wl-330ge UART, pin from left to right, +3.3V (not used), Tx, Rx, GND, try to swarp tx/rx, serial port setting 115200 baud, N81  
 ![wl-330ge_serial_port.JPG](wl-330ge_serial_port.JPG)  
@@ -30,12 +30,17 @@ openwrt-15.05.1-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok
 lede-17.01.7-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
 ```
 
+
+.  
+
 ![openwrt_18_burn_fail.JPG](openwrt_18_burn_fail.JPG)  
 ```
 openwrt-18.06.4-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, NG  
 openwrt-22.03.2-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
 openwrt-22.03.3-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
 openwrt-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
+
+accodring to openwrt, the linux image is getting bigger and bigger, router with 4MB flash/32MB RAM router will be renedered incapable.   
 ```
 
 
