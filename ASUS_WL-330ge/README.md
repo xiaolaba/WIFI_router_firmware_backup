@@ -12,17 +12,17 @@ enter resecue mode
 2. power up
 3. power LED flash about 1sec interval
 
-download [tftp64](https://pjo2.github.io/tftpd64/), uses [client] mode to [put] firmware to the wl-330ge
+download [tftp64](https://pjo2.github.io/tftpd64/), uses [client] mode to [put] firmware to the wl-330ge.  
 or uses ASUS tool, UT_WL330GE_1421. go to ASUS webpage downlod, or here local [UT_WL330GE_1421.zip](UT_WL330GE_1421.zip)  
 
 
-following burn firmware
-openwrt-15.05.1-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok
-lede-17.01.7-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok
-openwrt-18.06.4-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, NG
-openwrt-22.03.2-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG
-openwrt-22.03.3-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG
-openwrt-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG
+following burn firmware,  
+openwrt-15.05.1-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
+lede-17.01.7-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
+openwrt-18.06.4-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, NG  
+openwrt-22.03.2-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
+openwrt-22.03.3-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
+openwrt-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG  
 
 
 
