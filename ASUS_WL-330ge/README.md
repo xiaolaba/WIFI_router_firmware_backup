@@ -40,7 +40,7 @@ openwrt-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG
 
 
 
-if uses UART dump terminal, will see tftp prompt, waiting for tftp client to push firmware image
+if uses UART dump terminal, will see tftp prompt, waiting for tftp client to push firmware image.  
 UART terminal, [https://www.putty.org](https://www.putty.org)  
 ```
 CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
