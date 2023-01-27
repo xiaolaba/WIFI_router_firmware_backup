@@ -29,7 +29,9 @@ Version 2.0.2.0 2.97 MB
 files are over 25MB, could not be upload  
 
 
-following, burn firmware testing,  
+### burn firmware testing,  
+.  
+.  
 ![openwrt15_17_burn_ok.JPG](openwrt15_17_burn_ok.JPG)  
 ```
 WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx, ok
@@ -39,7 +41,7 @@ lede-17.01.7-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok
 
 
 .  
-
+.  
 ![openwrt_18_burn_fail.JPG](openwrt_18_burn_fail.JPG)  
 ```
 openwrt-18.06.4-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, NG  
