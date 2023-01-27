@@ -1,31 +1,31 @@
+# ASUS_WL-330ge burn firmware
+
+### hardware setup
+1. LAN cable connect wl-330ge to PC, PC lan address set to 192.168.1.188  
+2. serial-usb connect to wl-330ge UART, pin from left to right, +3.3V (not used), Tx, Rx, GND, try to swarp tx/rx, serial port setting 115200 baud, N81
+![wl-330ge_serial_port.JPG](wl-330ge_serial_port.JPG)  
+
+### enter resecue mode  
+1. hold the button  
+2. plug in power cable  
+3. power LED flash about 1sec interval
+
+### tftp client
+download [tftp64](https://pjo2.github.io/tftpd64/), uses [client] mode to [put] firmware to the wl-330ge.  
+or uses ASUS tool, UT_WL330GE_1421. go to ASUS webpage downlod, or here local [UT_WL330GE_1421.zip](UT_WL330GE_1421.zip)  
 
 
-ASUS official firmware  
+### ASUS official firmware  
 WL-330gE 韌體版本2.0.2.0（英語/繁體中文/簡體中文/德語/日語/土耳其語）  
 Version 2.0.2.0 2.97 MB  
 2011/04/21  
 新增支援土耳其語  
 [WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx](WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx)  
 
-
-Lan cable connectwl-330ge to PC, PC lan address set to 192.168.1.188  
-serial-usb connect to wl-330ge, pin from left to right, +3.3V (not used), Tx, Rx, GND, no need
-![wl-330ge_serial_port.JPG](wl-330ge_serial_port.JPG)  
-
-
-
-enter resecue mode
-1. hold the button
-2. power up
-3. power LED flash about 1sec interval
-
-download [tftp64](https://pjo2.github.io/tftpd64/), uses [client] mode to [put] firmware to the wl-330ge.  
-or uses ASUS tool, UT_WL330GE_1421. go to ASUS webpage downlod, or here local [UT_WL330GE_1421.zip](UT_WL330GE_1421.zip)  
-
-
-following burn firmware,  
+following, burn firmware testing,  
 ![openwrt15_17_burn_ok.JPG](openwrt15_17_burn_ok.JPG)  
 ```
+WL-330gE_2.0.2.0_EN_TW_CN_DE_JP_TR.trx, ok
 openwrt-15.05.1-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
 lede-17.01.7-brcm47xx-legacy-asus-wl-330ge-squashfs.trx, ok  
 ```
@@ -40,7 +40,8 @@ openwrt-bcm47xx-legacy-asus_wl-330ge-squashfs.trx, NG
 
 
 
-if uses UART dump terminal, will see tftp prompt,
+if uses UART dump terminal, will see tftp prompt, waiting for tftp client to push firmware image
+UART terminal, [https://www.putty.org](https://www.putty.org)  
 ```
 CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
 Build Date: Fri Apr 11 15:23:32 CST 2008 (root@localhost.localdomain)
@@ -75,7 +76,7 @@ Failed.: Timeout occured
 
 
 
-boot log
+openwrt 15.05.1, boot log
 
 ```
 root@OpenWrt:~# dmesg
