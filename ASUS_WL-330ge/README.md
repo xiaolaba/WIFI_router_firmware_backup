@@ -2,7 +2,7 @@
 
 ### hardware setup
 1. LAN cable connect wl-330ge to PC, PC lan address set to 192.168.1.188  
-2. serial-usb connect to wl-330ge UART, pin from left to right, +3.3V (not used), Tx, Rx, GND, try to swarp tx/rx, serial port setting 115200 baud, N81
+2. serial-usb connect to wl-330ge UART, pin from left to right, +3.3V (not used), Tx, Rx, GND, try to swarp tx/rx, serial port setting 115200 baud, N81  
 ![wl-330ge_serial_port.JPG](wl-330ge_serial_port.JPG)  
 
 ### enter resecue mode  
