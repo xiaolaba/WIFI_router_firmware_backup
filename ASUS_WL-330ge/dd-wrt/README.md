@@ -4,7 +4,9 @@
 https://dd-wrt.com/support/router-database/?model=WL-330gE_-
 
 ### uses this firmware for testing  
-https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/broadcom/dd-wrt.v24_vpn_generic.bin
+note, version info displayed was wrong with "vpn"
+https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/broadcom/dd-wrt.v24_std_generic.bin
+
 
 ok, netgear orbi router is not supporting bcm wifi card, real slow, this old router is better performance, but why ?  
 ![firmware_download_2023-03-16/2023-03-16_upgrade_ok.JPG](firmware_download_2023-03-16/2023-03-16_upgrade_ok.JPG)
