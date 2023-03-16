@@ -34,11 +34,20 @@ Setup > Networking > Port Setup and set WAN Port Assignment to 'eth0'
 ```
 
 Administration > Command start-up script then save /run, reboot device  
+this is NOT working  
 ```
 nvram set wan_ifname=eth0
 brctl delif br0 eth0
 startservice wan
 ```
+this is working,  
+```
+nvram set wan_ifname="eth0"
+brctl delif br0 eth0
+startservice wan
+```
+
+
 
 ### try some test
 ```
