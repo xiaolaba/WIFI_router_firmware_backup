@@ -75,3 +75,221 @@ The VPN edition includes OpenVPN but does not include IPv6, CIFS client, or kaid
 
 The micro edition is a stripped down version designed for the WRT54G v5 and other 2MB router models.
 ```
+
+
+
+### 1st burm firemware and log
+```
+TFTP_BLKLEN!!
+break!! last block!!
+Done. 3121172 bytes read
+Download of 0x2fa014 bytes completed
+Write kernel and filesystem binary to FLASH (0xbfc20000)
+Programming...
+copysize=3121172, amtcopy=3121172 
+done. 3121172 bytes written
+
+```
+
+
+### 1st boot log
+```
+Decompressing..........done
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Fri Apr 11 15:23:32 CST 2008 (root@localhost.localdomain)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 131072(0x20000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.130.31.0
+CPU type 0x29029: 240MHz
+Total memory: 16384 KBytes
+
+Total memory used by CFE:  0x80400000 - 0x80497DD0 (622032)
+Initialized Data:          0x8042F150 - 0x80431610 (9408)
+BSS Area:                  0x80431610 - 0x80431DD0 (1984)
+Local Heap:                0x80431DD0 - 0x80495DD0 (409600)
+Stack Area:                0x80495DD0 - 0x80497DD0 (8192)
+Text (code) segment:       0x80400000 - 0x8042F150 (192848)
+Boot area (physical):      0x00498000 - 0x004D8000
+Relocation Factor:         I:00000000 - D:00000000
+
+Device eth0:  hwaddr 48-5B-39-E7-1D-AE, ipaddr 192.168.1.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+Null Rescue Flag.
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: TFTP Server.
+Failed.
+Could not load :: Timeout occured
+Loader:raw Filesys:raw Dev:flash0.os File: Options:(null)
+Loading: ...... 1605632 bytes read
+Entry at 0x80001000
+Closing network.
+Starting program at 0x80001000
+CPU revision is: 00029029
+
+Primary instruction cache 16kb, linesize 16 bytes (4 ways)
+
+Primary data cache 16kb, linesize 16 bytes (2 ways)
+
+Linux version 2.4.20 (root@localhost.localdomain) (gcc version 3.2.3 with Broadcom modifications) #2388 Thu Jan 27 10:27:11 CST 2011
+
+Setting the PFC to its default value
+
+Determined physical RAM map:
+
+ memory: 01000000 @ 00000000 (usable)
+
+On node 0 totalpages: 4096
+
+zone(0): 4096 pages.
+
+zone(1): 0 pages.
+
+zone(2): 0 pages.
+
+Kernel command line: root=/dev/mtdblock2 noinitrd console=ttyS0,115200
+
+CPU: BCM5354 rev 3 at 240 MHz
+
+Calibrating delay loop... 237.56 BogoMIPS
+
+Memory: 14408k/16384k available (1372k kernel code, 1976k reserved, 108k data, 64k init, 0k highmem)
+
+Dentry cache hash table entries: 2048 (order: 2, 16384 bytes)
+
+Inode cache hash table entries: 1024 (order: 1, 8192 bytes)
+
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+
+Buffer-cache hash table entries: 1024 (order: 0, 4096 bytes)
+
+Page-cache hash table entries: 4096 (order: 2, 16384 bytes)
+
+Checking for 'wait' instruction...  unavailable.
+
+POSIX conformance testing by UNIFIX
+
+PCI: no core
+
+PCI: Fixing up bus 0
+
+Linux NET4.0 for Linux 2.4
+
+Based upon Swansea University Computer Society NET3.039
+
+Initializing RT netlink socket
+
+Starting kswapd
+
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+
+devfs: boot_options: 0x1
+
+pty: 256 Unix98 ptys configured
+
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+
+ttyS00 at 0xb8000300 (irq = 3) is a 16550A
+
+ttyS01 at 0xb8000400 (irq = 0) is a 16550A
+
+PPP generic driver version 2.4.2
+
+PPP Deflate Compression module registered
+
+PPP BSD Compression module registered
+
+MPPE/MPPC encryption/compression module registered
+
+ Amd/Fujitsu Extended Query Table v1.1 at 0x0040
+
+number of CFI chips: 1
+
+Flash device: 0x400000 at 0x1c000000
+
+Physically mapped flash: squashfs filesystem found at block 800
+
+Creating 4 MTD partitions on "Physically mapped flash":
+
+0x00000000-0x00020000 : "boot"
+
+0x00020000-0x003f0000 : "linux"
+
+0x000c8388-0x003f0000 : "rootfs"
+
+0x003f0000-0x00400000 : "nvram"
+
+sflash: found no supported devices
+
+NET4: Linux TCP/IP 1.0 for NET4.0
+
+IP Protocols: ICMP, UDP, TCP
+
+IP: routing cache hash table of 512 buckets, 4Kbytes
+
+TCP: Hash tables configured (established 1024 bind 2048)
+
+ip_conntrack version 2.1 (128 buckets, 1024 max) - 344 bytes per conntrack
+
+ip_conntrack_pptp version 1.9 loaded
+
+ip_nat_pptp version 1.5 loaded
+
+ip_tables: (C) 2000-2002 Netfilter core team
+
+ipt_time loading
+
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+
+NET4: Ethernet Bridge 008 for NET4.0
+
+802.1Q VLAN Support v1.7 Ben Greear <greearb@candelatech.com>
+
+All bugs added by David S. Miller <davem@redhat.com>
+
+VFS: Mounted root (squashfs filesystem) readonly.
+
+Mounted devfs on /dev
+
+Freeing unused kernel memory: 64k freed
+
+Algorithmics/MIPS FPU Emulator v1.5
+
+eth0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.130.32.0
+
+eth1: Broadcom BCM4318 802.11 Wireless Controller 4.130.32.0
+
+device eth0 entered promiscuous mode
+
+eth1: Invalid argument
+device eth1 entered promiscuous mode
+
+br0: port 2(eth1) entering learning state
+
+br0: port 2(eth1) entering forwarding state
+
+br0: topology change detected, propagating
+
+br0: port 1(eth0) entering learning state
+
+br0: port 1(eth0) entering forwarding state
+
+br0: topology change detected, propagating
+
+eth0: No such process
+PCI devices found:
+    Class 0501: PCI device 14e4:0800 (rev 3).
+    Class 0200: PCI device 14e4:4713 (rev 3).
+    Class 0b30: PCI device 14e4:0816 (rev 3).
+    Class 0c03: PCI device 14e4:471a (rev 3).
+    Class 0c03: PCI device 14e4:471a (rev 3).
+    Class 0500: PCI device 14e4:080f (rev 3).
+    Class 0280: PCI device 14e4:4318 (rev 3).
+    Class 0280: PCI device 14e4:4719 (rev 3).
+echo for PaN ::: &&&PaN
+
+
+```
