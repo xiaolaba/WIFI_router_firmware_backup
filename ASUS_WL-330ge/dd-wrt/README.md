@@ -76,7 +76,55 @@ The VPN edition includes OpenVPN but does not include IPv6, CIFS client, or kaid
 The micro edition is a stripped down version designed for the WRT54G v5 and other 2MB router models.
 ```
 
+### hold reset button & power up, enter RECOVERY mode, TFTP server connection has to be
+uses this TFTP64 & connect serial termianl, 115200 baud n81.
+note: online updated dd-wrt firmware, 
+recovery mode was 192.168.1.220, changed to 192.168.1.1
+no more compatible with ASUS orignal recovery firmware!!
 
+```
+Decompressing..........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Fri Apr 11 15:23:32 CST 2008 (root@localhost.localdomain)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 131072(0x20000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.130.31.0
+CPU type 0x29029: 240MHz
+Total memory: 16384 KBytes
+
+Total memory used by CFE:  0x80400000 - 0x80497DD0 (622032)
+Initialized Data:          0x8042F150 - 0x80431610 (9408)
+BSS Area:                  0x80431610 - 0x80431DD0 (1984)
+Local Heap:                0x80431DD0 - 0x80495DD0 (409600)
+Stack Area:                0x80495DD0 - 0x80497DD0 (8192)
+Text (code) segment:       0x80400000 - 0x8042F150 (192848)
+Boot area (physical):      0x00498000 - 0x004D8000
+Relocation Factor:         I:00000000 - D:00000000
+
+Device eth0:  hwaddr 48-5B-39-E7-1D-AE, ipaddr 192.168.1.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+Null Rescue Flag.
+Hello!! Enter Rescue Mode: (by Force)
+
+Reading :: TFTP Server.
+Failed.: Timeout occured
+Reading :: TFTP Server.
+Failed.: Timeout occured
+Reading :: TFTP Server.
+Failed.: Timeout occured
+Reading :: TFTP Server.
+Failed.: Timeout occured
+Reading :: TFTP Server.
+Failed.: Timeout occured
+Reading :: TFTP Server.
+Failed.: Timeout occured
+Reading :: TFTP Server.
+```
 
 ### 1st burm firemware and log
 ```
