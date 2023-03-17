@@ -341,3 +341,8 @@ echo for PaN ::: &&&PaN
 
 
 ```
+
+### telnet / ssh  
+user name always : root  
+password, login password of your dd-wrt  
+![telnet_root_always.JPG](telnet_root_always.JPG)  
