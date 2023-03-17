@@ -6,7 +6,7 @@ https://dd-wrt.com/support/router-database/?model=WL-330gE_-
 ### uses this firmware for testing and done, it works 
 note, version info displayed was wrong with "vpn"  
 https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/broadcom/dd-wrt.v24_std_generic.bin
-![firmware_download_2023-03-16/2023-03-17_wifi_eth0_wan_ok.JPG](firmware_download_2023-03-16/2023-03-17_wifi_eth0_wan_ok.JPG)
+![firmware_download_2023-03-16/2023-03-18_wifi_eth0_wan_ok.JPG](firmware_download_2023-03-16/2023-03-18_wifi_eth0_wan_ok.JPG)
 
 ```
 brctl delif br0 eth0
